@@ -1441,7 +1441,7 @@
 
 	$(document).on(
 		'focus.datepicker.data-api click.datepicker.data-api',
-		'[data-provide="datepicker"]',
+		'[data-provide="datepicker"],[data-action="datepicker"]',
 		function(e) {
 			var $this = $(this);
 			if ($this.data('datepicker')) return;
