@@ -1192,7 +1192,11 @@
 		forceParse: true,
 		format: 'mm/dd/yyyy',
 		keyboardNavigation: true,
-		language: 'zh-CN',
+		language: (function() {
+			var lang = window.navigator.userLanguage || window.navigator.language;
+			if (lang === 'zh-CN') return lang;
+			return 'en';
+		})(),
 		minViewMode: 0,
 		orientation: "auto",
 		rtl: false,
