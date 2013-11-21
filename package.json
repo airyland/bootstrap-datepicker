@@ -1,16 +1,16 @@
 {
   "family": "seedit",
-  "name": "autosize",
+  "name": "datepicker",
   "version": "0.0.1",
-  "description": "jQuery textarea autoresize plugin",
-  "homepage": "https://github.com/airyland/autosize",
+  "description": "datepicker",
+  "homepage": "https://github.com/airyland/seedit.ui.datepicker",
   "author": "airyland",
   "maintainers": [
     "airyland"
   ],
   "repository": {
     "type": "git",
-    "url": "git://github.com/airyland/autosize.git"
+    "url": "git://github.com/airyland/seedit.ui.datepicker.git"
   },
   "bugs": {
     "url": ""
@@ -18,7 +18,7 @@
   "keywords": [],
   "licenses": "MIT",
   "spm": {
-    "output": ["autosize.js"],
+    "output": ["datepicker.js"],
     "alias": {},
     "devAlias": {},
     "engines": {}
