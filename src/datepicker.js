@@ -1,7 +1,4 @@
 define(function(require, exports, module) {
-
-    var jQuery = require('$');
-
     /* =========================================================
      * bootstrap-datepicker.js
      * Repo: https://github.com/eternicode/bootstrap-datepicker/

@@ -1,5 +1,4 @@
-define("seedit/datepicker/0.0.1/datepicker-debug", [ "$-debug" ], function(require, exports, module) {
-    var jQuery = require("$-debug");
+define("seedit/datepicker/0.0.1/datepicker-debug", [], function(require, exports, module) {
     /* =========================================================
      * bootstrap-datepicker.js
      * Repo: https://github.com/eternicode/bootstrap-datepicker/
