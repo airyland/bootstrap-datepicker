@@ -1,4 +1,4 @@
-define("moe/datepicker/0.0.1/datepicker-debug", [], function(require, exports, module) {
+define("moe/datepicker/0.0.2/datepicker-debug", [], function(require, exports, module) {
     /* =========================================================
      * bootstrap-datepicker.js
      * Repo: https://github.com/eternicode/bootstrap-datepicker/
